@@ -7,7 +7,7 @@ email: draconissickle@gmail.com
 baseurl: "/jekyll-theme-lazy" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
-destination: "docs"
+destination: docs
 
 twitter_username: RadoslavStanchev
 github_username:  RadoslavStanchev
