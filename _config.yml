@@ -21,12 +21,19 @@ plugins:
 
 
 exclude:
+  # - Gemfile
+  # - Gemfile.lock
+  # - node_modules
+  # - .gitignore
+  # - scss
+  # - gulpfile.js
+  # - package.json
+  # - package-lock.json
   - Gemfile
   - Gemfile.lock
-  - node_modules
-  - .gitignore
-  - scss
-  - gulpfile.js
   - package.json
-  - package-lock.json
+  - gulpfile.js
+  - docs
+  - node_modules
+  - scss
 
