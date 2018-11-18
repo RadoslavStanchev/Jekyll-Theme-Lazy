@@ -34,7 +34,7 @@ $btnColors: (
 
         .button.#{$name}:hover {
             background: lighten($color, 20);
-            color: btn-text-color(lighten($color, 20));
+            color: btn-text-color(lighten($color, 20)j);
         }
     }
 }
