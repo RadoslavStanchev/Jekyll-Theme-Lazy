@@ -5,14 +5,13 @@ body {
 .site {
     padding: var(--spacing-site, 2em);
   
+    @at-root #{&}-content {
+        max-width: 60rem;
+        margin: 0 auto;
+        margin-top: 10rem;
+    }
 }
 
-
-.site-content {
-    max-width: 60rem;
-    margin: 0 auto;
-    margin-top: 10rem;
-}
 body p:first-child{
 }
 
@@ -21,9 +20,9 @@ body p:first-child{
     overflow: hidden;
     padding-top: 0;
     display: flex;
-}
 
-body.login .site {
+
+.site {
     flex: 1 0 auto;
     background: #EEE;
     border: 4rem solid #FFF;
@@ -32,7 +31,8 @@ body.login .site {
     justify-content: space-between;
 }
 
-body.login .site-header {
+    .site-header {
     display: none;
     
+}
 }
